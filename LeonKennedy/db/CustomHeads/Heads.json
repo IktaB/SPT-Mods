@@ -1,0 +1,13 @@
+{
+  "d5e6a2adcc35a7e6c4880d57": {
+    "path": "heads/leon_head.bundle",
+    "addHeadToPlayer": true,
+    "side": [
+      "Bear",
+      "Usec"
+    ],
+    "locales": {
+      "en": "Leon S. Kennedy"
+    }
+  }
+}
