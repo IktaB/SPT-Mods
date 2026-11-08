@@ -1,0 +1,14 @@
+{
+  "d415f67248ec1473f3bfb277": {
+    "name": "Leon",
+    "locales": {
+      "en": "Leon"
+    },
+    "bundlePath": "voices/leon_voice.bundle",
+    "addVoiceToPlayer": true,
+    "sideSpecificVoice": [
+      "Bear",
+      "Usec"
+    ]
+  }
+}
