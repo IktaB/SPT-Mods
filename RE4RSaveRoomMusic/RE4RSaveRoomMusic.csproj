@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <SptRoot Condition="'$(SptRoot)' == ''">E:\SPT</SptRoot>
+    <Managed>$(SptRoot)\EscapeFromTarkov_Data\Managed</Managed>
+    <BepInExCore>$(SptRoot)\BepInEx\core</BepInExCore>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(BepInExCore)\BepInEx.dll;$(BepInExCore)\0Harmony.dll" Private="false" />
+    <Reference Include="$(Managed)\Assembly-CSharp.dll;$(Managed)\UnityEngine.dll;$(Managed)\UnityEngine.CoreModule.dll;$(Managed)\UnityEngine.AudioModule.dll" Private="false" />
+    <EmbeddedResource Include="RE4RSaveRoomMusic.wav" LogicalName="RE4RSaveRoomMusic.wav" />
+  </ItemGroup>
+</Project>
