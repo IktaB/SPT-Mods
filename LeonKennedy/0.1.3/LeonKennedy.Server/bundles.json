@@ -1,0 +1,36 @@
+{
+  "manifest": [
+    {
+      "key": "heads/leon_head.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "clothing/leon_top.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "clothing/leon_bottom.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "clothing/leon_hands.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "voices/leon_voice.bundle",
+      "dependencyKeys": []
+    }
+  ]
+}
